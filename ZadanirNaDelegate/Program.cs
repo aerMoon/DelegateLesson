@@ -43,6 +43,8 @@ namespace Zadanie
 
             deleg = pupil.getKlass;
             Console.WriteLine($"ученик учится в {deleg()} классе");
+
+            deleg += student.GetGroup;
         }
     }
 }
